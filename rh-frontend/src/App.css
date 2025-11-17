@@ -1,0 +1,32 @@
+body { background-color: #eef2f5; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+.container { max-width: 900px; margin: 40px auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+
+h1 { text-align: center; color: #2c3e50; margin-bottom: 30px; }
+h2 { color: #34495e; border-bottom: 2px solid #f0f2f5; padding-bottom: 10px; margin-bottom: 20px; font-size: 1.2rem; }
+
+/* Formulário */
+.card { background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 30px; border: 1px solid #e9ecef; }
+form { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+input { padding: 10px; border: 1px solid #ced4da; border-radius: 4px; flex: 1; min-width: 150px; }
+
+/* Botões */
+button { padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; font-weight: bold; transition: 0.2s; }
+.btn-save { background-color: #28a745; color: white; } .btn-save:hover { background-color: #218838; }
+.btn-cancel { background-color: #6c757d; color: white; }
+.btn-edit { background-color: #ffc107; color: #212529; margin-right: 5px; padding: 5px 10px; font-size: 0.9rem;}
+.btn-delete { background-color: #dc3545; color: white; padding: 5px 10px; font-size: 0.9rem;}
+.btn-clear { background-color: #17a2b8; color: white; margin-left: 10px; }
+
+/* Tabela */
+table { width: 100%; border-collapse: collapse; margin-top: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #dee2e6; }
+th { background-color: #343a40; color: white; }
+tr:hover { background-color: #f1f1f1; }
+
+/* Totais e Grid */
+.totais-area { margin-top: 40px; }
+.totais-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
+.total-card { background: #fff; border: 1px solid #dee2e6; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+.total-card h3 { margin-top: 0; color: #007bff; border-bottom: 1px solid #eee; }
+.total-card ul { list-style: none; padding: 0; }
+.total-card li { display: flex; justify-content: space-between; padding: 5px 0; border-bottom: 1px dashed #eee; }
